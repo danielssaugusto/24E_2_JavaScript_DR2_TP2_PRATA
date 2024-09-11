@@ -1,0 +1,53 @@
+declare -gx REPLIT_PID1_VERSION=0.0.0-27ab3ac
+declare -gx REPLIT_PID1_FLAG_REPLIT_RTLD_LOADER=1
+declare -gx PROMPT_DIRTRIM=2
+declare -gx REPL_IMAGE=gcr.io/marine-cycle-160323/nix:bf8590a3e2f0a8b70b7ca175eeed9074dffbfca9
+declare -gx NODE_EXTRA_CA_CERTS=/etc/ssl/certs/ca-certificates.crt
+declare -gx REPLIT_CLI=/nix/store/lyhf3qlsi037r7gz1w82xfg9gizayg8k-pid1-0.0.1/bin/replit
+declare -gx LANG=en_US.UTF-8
+declare -gx SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
+declare -gx LIBGL_DRIVERS_PATH=/nix/store/0lfnrz6nq5myv787cih78knzaqy9z9fc-mesa-23.1.9-drivers/lib/dri
+declare -gx COLORTERM=truecolor
+declare -gx DENO_TLS_CA_STORE=system
+declare -gx NIX_PROFILES='/nix/var/nix/profiles/default /home/runner/.nix-profile'
+declare -gx REPLIT_RIPPKGS_INDICES=/nix/store/mfrw2kh7ppd5qmjwm5sj9c41lkh2hlij-rippkgs-indices
+declare -gx XDG_DATA_HOME=/home/runner/TP-22-Calculo-do-IMC/.local/share
+declare -gx GIT_EDITOR=replit-git-editor
+declare -gx REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
+declare -gx __EGL_VENDOR_LIBRARY_FILENAMES=/nix/store/0lfnrz6nq5myv787cih78knzaqy9z9fc-mesa-23.1.9-drivers/share/glvnd/egl_vendor.d/50_mesa.json
+declare -gx REPL_OWNER=danielasilva22
+declare -gx HOSTNAME=6ef79c8bd676
+declare -gx REPL_OWNER_ID=35382398
+declare -gx DOCKER_CONFIG=/home/runner/TP-22-Calculo-do-IMC/.config/docker
+declare -gx GIT_ASKPASS=replit-git-askpass
+declare -gx HOME=/home/runner
+declare -gx DISPLAY=:0
+declare -gx REPL_ID=5d65fd9b-a7c5-47ab-a4ca-bca1d28b6b3e
+declare -gx REPLIT_DB_URL=https://kv.replit.com/v0/eyJhbGciOiJIUzUxMiIsImlzcyI6ImNvbm1hbiIsImtpZCI6InByb2Q6MSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb25tYW4iLCJleHAiOjE3MjYwMzc5MjcsImlhdCI6MTcyNTkyNjMyNywiZGF0YWJhc2VfaWQiOiI1ZDY1ZmQ5Yi1hN2M1LTQ3YWItYTRjYS1iY2ExZDI4YjZiM2UifQ.5k_Km7GXbVmGMhwwJSUsn2d4o2eaOA0r_U8pV5cnZaFL1Pb4_kSQOBgttC3NbB7mR5oPpLSd-w-59391t0E0Rg
+declare -gx XDG_CONFIG_HOME=/home/runner/TP-22-Calculo-do-IMC/.config
+declare -gx NIXPKGS_ALLOW_UNFREE=1
+declare -gx REPLIT_SUBCLUSTER=interactive
+declare -gx REPLIT_CLUSTER=picard
+declare -gx REPLIT_BASHRC=/nix/store/p7awxwdwkaxb0k2svvhlg5d3xwbir5gq-replit-bashrc/bashrc
+declare -gx REPLIT_ENVIRONMENT=production
+declare -gx REPL_IDENTITY_KEY=k2.secret.DdHhEiSjn6-xaAaxufQJnpaOlf7aCpDJYUVp2zeCHLi3MZe0zZ8UCtuD-HHXTU7t0j-51DGKn6M8w1V9biPaug
+declare -gx NIX_PS1='\[\033[01;34m\]\w\[\033[00m\]\$ '
+declare -gx USER=runner
+declare -gx REPL_PUBKEYS='{"crosis-ci":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","crosis-ci:1":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","crosis-ci:latest":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","prod":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","prod:1":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","prod:2":"8uGN+vfszlnV93/HCSHlVLG0xddMlPkir1Ni4JKT4+w=","prod:3":"9+MCOSHQSQlcodXoot8dC8NLhc862nLkx1/VMsbY2h8=","prod:4":"8uGN+vfszlnV93/HCSHlVLG0xddMlPkir1Ni4JKT4+w=","prod:5":"9+MCOSHQSQlcodXoot8dC8NLhc862nLkx1/VMsbY2h8=","prod:latest":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","vault-goval-token":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E=","vault-goval-token:1":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E=","vault-goval-token:latest":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E="}'
+declare -gx REPL_IDENTITY=v2.public.Q2lRMVpEWTFabVE1WWkxaE4yTTFMVFEzWVdJdFlUUmpZUzFpWTJFeFpESTRZalppTTJVU0RtUmhibWxsYkdGemFXeDJZVEl5R2hSVVVDMHlNaTFEWVd4amRXeHZMV1J2TFVsTlF5SWtOV1EyTldaa09XSXRZVGRqTlMwME4yRmlMV0UwWTJFdFltTmhNV1F5T0dJMllqTmxPUDdJN3hCYUZRb0djR2xqWVhKa0VndHBiblJsY21GamRHbDJaUT09oApq6VgdSQvkUHYiawaexyEJynqWQdolEmODLTRgzhiQf2J1YgPjklu7TIZBNEcSnsjHLGP2x2-bV-a0_mjqDw.R0FFaUJtTnZibTFoYmhLYkNIWXlMbkIxWW14cFl5NVJNbVF6VTFoR1MxcHBkREJhTVd4U1lsWndNbEV6WkZKU1ZrNUZVVmR2ZW1GVVVtaE5NRXB2VVRGd2RsUlZlRU5SVmtwMlVUQmtRbFpYUmt0YU1qbHlWR3hrVWsxck5WaFhiWFJRVmpCc01GZFdVbXRoYXpWVVRVUkNUMDFyV25CVVJtUkdUVVpyZVZKWVVscGlWVFZ2VkZaa1VtVlZPVWhUVkVwYVlXczFjMUl5YUVKVk1GSjBWVzFvYVdKWGVITlphMlJIWlcxR1dHVkVTbHBXUld3MVVqSmtWazVET1hwaGJscEdVVzA1U2xOWFpHRmtNa1pZVkcxb2FtSldSbWhTUms1MlZFZEdXRTVVUW1GWFJYQnZWMVJPVTJOSFVuUldWMnhQVmpOT05WUkhOVU5OVm14MFpVaENXbVZVVlhkYVYzUnJWMWRTUmsxSWJHRmhNWEJEV1RJeFMySnNaM2xoUkZKT1ZrVkdORlpJY0d0aE1VNVhUMVJHWVZKcldUQlpWbWhDWkVkR2MxRnJOVlZpUm5CMFZtNXdVMk5WTVhWVGJsbHVjVnB2VWxsMk5Vb3RielI1Y2tNdFJtbERUbUpSVDBGblVVMUJTVVV6Um1aU1QzWlFXSGwxVnpCVmFEQkZSa0kzUzNkUGFXZHJSVXRVYm1oS1FYcHRSRGhXZG0xTVpWOTJjWE4zWlVwWlFqSk9kbGxDTGxJd1JrWmhWVXAwVkc1YWFXSlVSbTlaYldoTldXdEdkVmRZYkUxaWEwbDRWMWN4TkdOR2JEVk9Wa3BPWWxaSk1sWlVSbXROUjFaMFUyeGFWR0p1UWxkV2JURTBWVEZTY2xWdFJrNVdia0pYVlRKMFQxWkdXbGxoUlZaV1pXdEtjbFZxUVRGVFZrWnlVMnhhVGxKc2NGTldiWEJQV1ZkU1YySXphRk5pVjJoVFZtcEtiMlJXVmxoa1IzUnBZa1UxV0ZsclZrOVdiVXBWWWtWV1ZtRnJTa2hhUjNoelZteEtkVkpzU2xkV1dFSktWakp3UTJNeFpITlNiR2hvVTBad1UxUlZaRk5STVZwSFdrVmtVbUpWV2tsWGExVjRWVEF4ZEZWcmRGZE5WbHBVVlZSS1NtUXhVbkpoUmtwWFlURndkbFpXV210aU1rcHpWRzVLYVZORldsaFpiWFIzVkRGc1YxVnNaRTVOV0VKSVYydFdNR0ZyTVhKWGJHeFhVbTFvV0ZaRVJtRmtSMVpKWTBaa1YySldTa2xXUmxKTFZESk5lVk5xV2xaaGVteFlWRmQ0UzJJeFdYbE5WRkpVVFd0YVIxUldWbXRXUjBwR1YyeGFXbFo2UlRCWFZscHpUbXhHVlZKdGNHbFNXRUkyVmtSR1YxbFhSWGxUYkd4V1ZrVmFWMWxyV21GamJIQklaVVZhYkZKdVFrWldNakYzWVVkRmVHTkhPVmRoYTFwVVZYcEdUbVZHV25OVGJFWlhVa1ZLTTFZeWRHRlhiVTUwWTBVeFVGZEZOSHBhUlZaYVRsWndSVkpZVW1saVZGWlJWREJrWVZWdFNsaGhSRXBVVWxad2VGWnJWbkprUjFKRllVVndhV0pXY0ZGWFJFbDRWbFV4ZEZsNlVtcFhTRUpHVld0a1ZrNUdXa1ZpUmxKb1RWWktObGR0ZUc5aVYxWnlZbnBDV0ZaVk1UWlhiWE4zWld4a1ZrNVlTbFJXUjFKWlYxZHJkMDVXU25KVmJUbFBZVlJHVEZScVNUVlNSWGh6VTFoa1UyRXhjRzlXYkZaM1RVWmFTRTVYUm1oV01IQldWVzB3TlZkdFNsaFZha3BXWVd0d1VGVXhXazlrVm1SMFVteE9VMlZ0WnpBPQ
+declare -gx REPLIT_PID1_FLAG_NIXMODULES_BEFORE_REPLIT_NIX=1
+declare -gx REPL_HOME=/home/runner/TP-22-Calculo-do-IMC
+declare -gx NIX_PATH=nixpkgs=/home/runner/.nix-defexpr/channels/nixpkgs-stable-23_11:/home/runner/.nix-defexpr/channels
+declare -gx DIRENV_CONFIG=/etc/direnv
+declare -gx REPL_SLUG=TP-22-Calculo-do-IMC
+declare -gx XDG_CACHE_HOME=/home/runner/TP-22-Calculo-do-IMC/.cache
+declare -gx REPLIT_RTLD_LOADER=1
+declare -gx REPLIT_NIX_CHANNEL=stable-23_11
+declare -gx LOCALE_ARCHIVE=/usr/lib/locale/locale-archive
+declare -gx REPL_LANGUAGE=html
+declare -gx REPLIT_DEV_DOMAIN=5d65fd9b-a7c5-47ab-a4ca-bca1d28b6b3e-00-2f62tqf3ze2uc.picard.replit.dev
+read -r _new_path <<< "/nix/store/bvkhr1bmifgglflgn799ls6rxab0cs2r-pid1/bin:/nix/store/vm0q58yl1adls57l18k3hk57f6c0pyb2-replit-runtime-path/bin:/home/runner/.nix-profile/bin:/home/runner/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+#PATH=/nix/store/bvkhr1bmifgglflgn799ls6rxab0cs2r-pid1/bin:/nix/store/vm0q58yl1adls57l18k3hk57f6c0pyb2-replit-runtime-path/bin:/home/runner/.nix-profile/bin:/home/runner/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+if [ -e "/run/replit/env/last" ]; then read -r _last_path < <(\grep '^#PATH=' /run/replit/env/last | cut -f 2 -d =); fi
+_user_components="$(\tr : $'\n' <<< "${PATH:-}" |\grep -xv -f <(\tr : $'\n' <<< "${_last_path}") |\tr $'\n' :)"
+declare -gx PATH="${_user_components}${_new_path}"
